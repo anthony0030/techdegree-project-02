@@ -1,0 +1,156 @@
+*
+  text-align: center
+  font-family: "Arial"
+  color: #4a4a4a
+  line-height: 1.5
+  box-sizing: border-box
+
+div.project
+  float: left
+
+
+@media(min-width: 320px)
+  h1,h2,h3
+    font-family: "Arial Black"
+
+  h1
+    margin: 25px 0
+
+  h2
+    margin-bottom: 50px
+    padding-top: 50px
+
+  img
+    width: 100%
+
+  img.profile
+    width: 60%
+    margin: 10% 20%
+
+  div.content
+    margin: 0 auto
+
+  header,
+  main,
+  footer
+    padding: 16px
+
+  div.project
+    width: 100%
+    margin: 10% auto
+
+  .nav
+    font-weight: bold
+    &.bottom
+      padding: 25px
+      font-family: "Arial Black"
+
+
+
+  #contact
+    padding-top: 100px
+
+  header
+    padding-top: 2%
+
+  header,
+  footer
+    background-color: #fafafa
+
+  header
+    h1
+      color: #4a4a4a
+      margin-top: 5%
+    nav
+      ul
+        padding: 0 5%
+      li
+        display: block
+        padding: 10px
+        background-color: #fff
+        margin: 5px 0
+        color: #4a4a4a
+        text-transform: uppercase
+        font-family: "Arial Black"
+        a
+          color: black
+          text-decoration: none
+          display: block
+    p
+      color: #9c9c9c
+      margin-left: 5%
+      margin-right: 5%
+      padding-bottom: 10%
+
+
+  footer
+    address
+      line-height: 3
+      padding-top: 5%
+      padding-bottom: 5%
+      font-style: normal
+    a
+      text-decoration: none
+      font-weight: bold
+    hr
+      width: 90%
+    span
+      margin-right: 10px 
+
+
+@media(min-width: 768px)
+  div.project
+    width: 50%
+  div.project
+    padding-right: 5px
+    padding-left: 5px
+    margin-top: 0
+    margin-bottom: 0
+    min-height: 400px
+
+  header
+    nav
+      li
+        display: inline-block
+        background-color: transparent
+
+
+
+
+
+
+
+
+
+@media(min-width: 1024px)
+  div.project
+    width: 33%
+
+// FLOATS
+
+.clearfix::after
+  content: ""
+  clear: both
+  display: table
+
+.fleft
+  float: left
+
+.fright
+  float: right
+
+
+// DEBUgg
+// @media(min-width: 320px)
+//   *
+//     background-color: red
+
+// @media(min-width: 768px)
+//   *
+//     background-color: blue
+
+// @media(min-width: 1024px)
+//   *
+//     background-color: green
+
+

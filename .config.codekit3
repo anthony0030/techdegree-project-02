@@ -21,6 +21,89 @@
 		"oAP": "\/docs\/docs",
 		"oF": 0
 		},
+	"\/images\/portfolio-1.png": {
+		"ft": 32768,
+		"iS": 3709,
+		"oA": 0,
+		"oAP": "\/docs\/images\/portfolio-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/portfolio-2.png": {
+		"ft": 32768,
+		"iS": 3747,
+		"oA": 0,
+		"oAP": "\/docs\/images\/portfolio-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/portfolio-3.png": {
+		"ft": 32768,
+		"iS": 2849,
+		"oA": 0,
+		"oAP": "\/docs\/images\/portfolio-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/portfolio-4.png": {
+		"ft": 32768,
+		"iS": 4737,
+		"oA": 0,
+		"oAP": "\/docs\/images\/portfolio-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/portfolio-5.png": {
+		"ft": 32768,
+		"iS": 6956,
+		"oA": 0,
+		"oAP": "\/docs\/images\/portfolio-5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/portfolio-6.png": {
+		"ft": 32768,
+		"iS": 3851,
+		"oA": 0,
+		"oAP": "\/docs\/images\/portfolio-6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/responsive-layout-profile.png": {
+		"ft": 32768,
+		"iS": 4086,
+		"oA": 0,
+		"oAP": "\/docs\/images\/responsive-layout-profile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/mockups": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/docs\/mockups",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -38,6 +121,27 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/source\/css\/styles.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/docs\/css\/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/index.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/docs\/index.html",
+		"oF": 0,
+		"oS": 0
 		}
 	},
 "hooks": [
@@ -49,7 +153,7 @@
 	"displayValue": "techdegree-project-2",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-gavin",
-	"lastBuiltDate": 530529158
+	"lastBuiltDate": 530533153
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2019,7 +2123,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/old, \/source\/partials",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/old, \/source\/partials, \/mockups",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",
