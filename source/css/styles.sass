@@ -1,17 +1,25 @@
-*
+body
   text-align: center
   font-family: "Arial"
   color: #4a4a4a
   line-height: 1.5
   box-sizing: border-box
 
+h1,h2,h3
+  font-family: "Arial Black"
+
 div.project
   float: left
 
+img
+  width: 100%
 
-@media(min-width: 320px)
-  h1,h2,h3
-    font-family: "Arial Black"
+
+
+@media(min-width: 320px) // MOBILE
+
+  .to-top
+    display: initial
 
   h1
     margin: 25px 0
@@ -20,8 +28,9 @@ div.project
     margin-bottom: 50px
     padding-top: 50px
 
-  img
+  p.intro-text
     width: 100%
+    margin: 0 auto
 
   img.profile
     width: 60%
@@ -39,12 +48,17 @@ div.project
     width: 100%
     margin: 10% auto
 
+  .student-name
+    width: 100%
+
+
   .nav
     font-weight: bold
+    width: 100%
+    box-sizing: border-box
     &.bottom
       padding: 25px
       font-family: "Arial Black"
-
 
 
   #contact
@@ -89,42 +103,101 @@ div.project
       padding-top: 5%
       padding-bottom: 5%
       font-style: normal
+    ul
+      padding: 0
+      margin: 0
+      width: 60%
     a
       text-decoration: none
       font-weight: bold
+      color: #7f7f7f
     hr
       width: 90%
     span
-      margin-right: 10px 
+      margin-right: 10px
+    nav
+      display: none
 
 
-@media(min-width: 768px)
+@media(min-width: 768px) // TABLET
   div.project
     width: 50%
+
+  img.profile
+    width: 40%
+    margin: initial
+    clear: both
+
+  p.intro-text
+    width: 60%
+    text-align: left
+    padding-right: 30px
+    box-sizing: border-box
+
   div.project
+    min-height: 400px
     padding-right: 5px
     padding-left: 5px
-    margin-top: 0
-    margin-bottom: 0
-    min-height: 400px
+    box-sizing: border-box
+    margin: initial
+
+  nav.fright.nav.bottom
+    display: inline-block
+    padding: 0 
+    li
+      display: inline-block
+      padding: 0 10px
+
+
+  .to-top
+    display: none
 
   header
+    padding-bottom: 60px
     nav
+      margin-bottom: 30px
       li
         display: inline-block
         background-color: transparent
+      ul
+        margin: 0
+
+  footer
+    ul
+      width: 100%
+
+  .student-name
+    // width: 50%
+    // text-align: left
+    margin: 0
+    margin-bottom: 30px
+
+  p.contact
+    padding-left: 15%
+    padding-right: 15%
 
 
 
 
-
-
-
-
-
-@media(min-width: 1024px)
+@media(min-width: 1024px) // DESKTOP
   div.project
-    width: 33%
+    width: 33.333333%
+
+
+  .student-name
+    width: 50%
+    text-align: left
+    margin: 0
+    margin-bottom: 30px
+
+  .nav
+    width: 50%
+    text-align: right
+
+  p.contact
+    padding-left: 20%
+    padding-right: 20%
+
 
 // FLOATS
 
@@ -141,16 +214,29 @@ div.project
 
 
 // DEBUgg
-// @media(min-width: 320px)
-//   *
-//     background-color: red
+@media(min-width: 320px)
+  body::before
+    content: "MOBILE"
+    color: red
+    position: fixed
+    top: 0
+    left: 0
 
-// @media(min-width: 768px)
-//   *
-//     background-color: blue
 
-// @media(min-width: 1024px)
-//   *
-//     background-color: green
+@media(min-width: 768px)
+  body::before
+    content: "TABLET"
+    color: red
+    position: fixed
+    top: 0
+    left: 0
+
+@media(min-width: 1024px)
+  body::before
+    content: "DESKTOP"
+    color: red
+    position: fixed
+    top: 0
+    left: 0
 
 

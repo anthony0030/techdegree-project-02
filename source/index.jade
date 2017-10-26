@@ -9,9 +9,9 @@ html(lang='en')
     link(rel='stylesheet', href='css/styles.css')
   body
     div.content
-      header
-        h1 Student Name
-        nav.nav
+      header.clearfix
+        h1.student-name.fleft Student Name
+        nav.fright.nav
           ul
             li
               a(href="#") home
@@ -19,8 +19,8 @@ html(lang='en')
               a(href="#portfolio") portfolio
             li
               a(href="#contact") contact
-        img(src="images/responsive-layout-profile.png", alt="A profile photo").profile
-        p
+        img(src="images/responsive-layout-profile.png", alt="A profile photo").profile.fright
+        p.intro-text.fleft
           | Hi! I'm a front-end developer who loves responsive design and css.
           | I recently finished a degee in front-end web development at Treehouse
           | and am exited to put all my skills to use!
@@ -52,18 +52,26 @@ html(lang='en')
           p Someone can enter in the numbers they want, and press the big blue button and get the result.
       footer
         h2#contact Contact
-        p If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!
+        p.contact If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!
         address
           span Phone 
           a(href="tel:+11115551234") +1 (111)555-1234 <br>
           span Email 
           a(href="mailto:email@yoursite.com") email@yoursite.com
         hr
-        div.nav.bottom.clearfix
-         span.fleft
-           a(href="#") Student name
-         span.fright
-            a(href="#") BACK TO TOP
+        div.nav.clearfix
+          span.fleft
+            a(href="#") Student name
+          span.fright
+            a(href="#").to-top BACK TO TOP
+          nav.fright.nav.bottom
+            ul
+              li
+                a(href="#") home
+              li
+                a(href="#portfolio") portfolio
+              li
+                a(href="#contact") contact
 
 
 
