@@ -182,27 +182,3 @@ p {
 
 .fright {
   float: right; }
-
-@media (min-width: 320px) {
-  body::before {
-    content: "MOBILE";
-    color: red;
-    position: fixed;
-    top: 0;
-    left: 0; } }
-
-@media (min-width: 768px) {
-  body::before {
-    content: "TABLET";
-    color: red;
-    position: fixed;
-    top: 0;
-    left: 0; } }
-
-@media (min-width: 1024px) {
-  body::before {
-    content: "DESKTOP";
-    color: red;
-    position: fixed;
-    top: 0;
-    left: 0; } }
