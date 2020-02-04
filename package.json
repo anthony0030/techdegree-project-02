@@ -1,19 +1,13 @@
 {
   "name": "techdegree-project-02",
   "version": "1.0.0",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://anthony0030@github.com/anthony0030/techdegree-project-02.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/anthony0030/techdegree-project-02/issues"
-  },
-  "homepage": "https://github.com/anthony0030/techdegree-project-02#readme",
+  "author": "Anthony Veaudry",
+  "license": "UNLICENSED",
+  "homepage": "https://anthony0030.github.io/techdegree-project-02",
   "dependencies": {
     "@openfonts/permanent-marker_latin": "^1.44.0",
     "@openfonts/roboto-mono_all": "^1.44.0",

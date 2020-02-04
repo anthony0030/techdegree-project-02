@@ -17,6 +17,14 @@
 		"oAP": "/docs/.gitignore",
 		"oF": 1
 		},
+	"/.vscode/settings.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/docs/.vscode/settings-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/docs": {
 		"ft": 65536,
 		"oA": 1,
@@ -490,7 +498,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-gavin",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 602171865.15188396
+	"lastBuiltDate": 602522442.151775
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
