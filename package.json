@@ -9,7 +9,7 @@
   "license": "UNLICENSED",
   "homepage": "https://anthony0030.github.io/techdegree-project-02",
   "dependencies": {
-    "@openfonts/permanent-marker_latin": "^1.44.0",
+    "@openfonts/permanent-marker_latin": "^1.44.1",
     "@openfonts/roboto-mono_all": "^1.44.0",
     "normalize.css": "^8.0.1"
   }
