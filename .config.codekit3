@@ -492,8 +492,8 @@
 	"/source/favicon/manifest.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "/docs/favicon/manifest-min.json",
-		"oF": 1,
+		"oAP": "/docs/favicon/manifest.json",
+		"oF": 3,
 		"oO": 0,
 		"oS": 1
 		},
